@@ -1,0 +1,90 @@
+ .button-login{
+        background-color: rgba(255, 255, 255, 0.475);
+        display: flex;
+        width: 700px;
+        height: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+        font-family: 'Gill Sans';
+        filter: blur();
+    }
+
+    h1{
+        display: flex;
+        width: 70px;
+        height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        top: 60%;
+        left: 50%;
+        transform: translate(5%, 300%);
+    }
+
+    .email{
+        border-radius: 6px;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 580px;
+        font-family: 'Gill Sans';
+    }
+
+    .password{
+        border-radius: 6px;
+        height: 50px;
+        width: 580px;
+        font-family: 'Gill Sans';
+    }
+
+    .button-save{
+        border-radius: 6px;
+        height: 50px;
+        width: 600px;
+        display: block;
+        position: absolute;
+        position: absolute;
+        top: 69%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Gill Sans';
+        font-size: 30px;
+    }
+
+    .password{
+        top: 60%;
+        left: 50%;
+        transform: translate(2%, 300%);
+    }
+    
+    .email{
+        top: 60%;
+        left: 50%;
+        transform: translate(2%, 300%);
+    }
+    
+    background-image{
+        width: 3000vh;
+        background-image: image('teladelogin/img/background');
+    }
+    
+    body{
+        background-image: url('img/background.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    
+    .button-save{
+        display: block;
+        background-color: rgb(0, 255, 38);
+        color: aliceblue;
+    }
+    
+    .forgot-passoword{
+        top: 60%;
+        left: 50%;
+        transform: translate(3%, 1000%);
+    }
